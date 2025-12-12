@@ -88,25 +88,6 @@ java -cp bin socket.ConsumerSocketClient
 
 Press CTRL + C to stop each one.
 
-Project Structure
-ProducerConsumerJava/
-├── src/
-│   ├── Main.java
-│   ├── concurrency/
-│   │   ├── BoundedBuffer.java
-│   │   ├── Producer.java
-│   │   └── Consumer.java
-│   ├── socket/
-│   │   ├── ProducerSocketServer.java
-│   │   └── ConsumerSocketClient.java
-│   ├── model/
-│   │   └── ITStudent.java
-│   └── util/
-│       └── XMLUtil.java
-├── bin/
-├── shared/  (for Part 2 file exchange)
-└── README.md
-
 Technologies Used
 •	Java 17
 •	DOM XML Parser
